@@ -1,14 +1,63 @@
-h1 {
-	color: purple;
+body {
+	background: #ebf5ff;
+}
+
+div.logo {
+	text-align: center;
+	scale: 50%;
+}
+
+div.siteName {
+	color: #007AFF;
+	text-align: center;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-size: 100px;
+	font-weight: 700;
+}
+
+div.boldText {
+	text-align: center;
+	padding: 100px;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #001c3b;
+}
+
+div.subTitle {
+	text-align: center;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-size: 50px;
+	color: #001c3b;
+}
+
+div.sectionImage {
+	text-align: center;
+	height: 0;
+	scale: 20%;
+}
+
+div.boxMenuOptions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.category {
+	background-color: #007aff;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	padding: 50px;
+	margin: 50px;
+	width: 20%;
 }
 
 a:hover{ color: blue; }
 a:active{ color:red; }
 a:visited{ color: #989898; }
 
-body {
-	background: #5D8AA8;
-}
+
 
 div#wrapper {
 	margin:auto;
@@ -16,3 +65,4 @@ div#wrapper {
 	width:800px;
 	height:2000px;
 }
+
