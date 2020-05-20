@@ -24,14 +24,20 @@
 	<body>
 		<header>
 			<div class="header">
-				<a href="#default" class="logo">CompanyLogo</a>
+				<a href="#default" class="logo">
+					<div class="smallLogo">
+					 <img id="logo" src="images/explearnLogoSmall.png" alt="Explearn logo"/>
+					</div>
+				</a>
 				<div class="header-right">
 					<a class="active" href="#home">Home</a>
-					<a href="#contact">Contact</a>
-					<a href="#about">About</a>
-			  </div>
+					<a href="index.html#Howitworks">How it works</a>
+					<a href="index.html#Categories">Categories</a>
+					<a href="index.html#Contact">Contact</a>
+					<a href="index.html#About">About</a>
+				</div>
 			</div> 
-			<a name="pageTop">Top of Page</a>
+			<a name="pageTop"></a>
 			<a href="index.html#pageBottom">Bottom of Page</a>
 		</header>
 	
@@ -47,7 +53,7 @@
 			
 			<div class="boldText">Learn coding leveraging experience of the community<br><br>Use verified sources of knowledge recommended by your peers and accelerate your career</div>
 			
-			
+			<a name="Howitworkss"></a>
 			<div class="subTitle">How it works</div>
 			<div class="sectionImage">
 				<img id="community" src="images/join.png"  alt="Community image"/>
@@ -56,44 +62,59 @@
 				<p>Are you self-thaught programmer or developer wannabe?<br>This is a perfect place for you!<br><br>Browse below categories and find recommended sources of knowledge from specific programming topic.<br>All of them have been gathered by people similar to you: they have given the resources provided their quality mark. Do not waste more time googling and searching for the best tutorial for you: use our tags to search for resources best for either visual or oral learners, people who learn the fastest by experience or the ones that need very deep understanding of theory. Everything you need you will find here.<br><br>Have a great learining experience and be sure to share that with us!</p>
 			</div>
 			
+			<a name="Categories"></a>
 			<div class="subTitle">Categories</div>
-			<div class="boxMenuOptions">
+			<div class="boxMenuOptionsContainer">
 				<div class="category">Prog Basic</div>
 				<div class="category">OOP</div>
 				<div class="category">WEB</div>
 				<div class="category">Advanced</div>
 			</div>
-		
-			<hr>
-						
-			This is an abbraviation <abbr title="abbreviation">abbrv.</abbr><br>
-			
-			
-			<!-- ruby indentation for pronounciation -->
-			<ruby>text<rt>Pronounciation</rt></ruby>
-			<hr>
-			
-			<!-- HYPERLINKS -->
-			<a href="http://youtube.com" title="You Tube">You Tube</a>
-			<!-- each hyperlink has 3 different states -->
-		
-			<hr>
-			<a href="mailto:exampleEmail@gmail.com">Send an email</a>
-			<hr>
-			
+
+			<a name="Contact"></a>
+			<div class="subTitle">Contact</div>
 			<!-- We can dynamically call a JS function to execute -->
 			<a href="javascript:toggleImg()">Toggle Image</a><br>
-
-			<hr>
+			<a href="mailto:exampleEmail@gmail.com">Send an email</a>
+								
+			This is an abbreviation It should contain a contact page with a form to send email to the author (you don't need to create server side logic, only the front end)
+			Contact page should have validation written in JavaScript using regular expressions
+			<abbr title="abbreviation">abbrv.</abbr><br>
+			
+			
+			<a name="About"></a>
+			<div class="subTitle">About</div>
+			
 		</div>
 	</body>
 	
-	<footer>
+	<footer class="footer">
+		
+		<ul class="footerLogos">
+			<li id="copyrights">Copyright © Agnieszka Andrzejczuk <!-- -->2020</li>
+			<li>
+				<a class="footerLogo" href="https://github.com/AgnieszkaAnd" target="_blank" rel="noopener">
+					<img src="images/githubLogo.png" alt="Github" width="100%">
+				</a>
+			</li>
+			<li>
+				<a class="footerLogo" href="https://www.linkedin.com/in/agnieszka-andrzejczuk-b9605498/" target="_blank" rel="noopener">
+					<img src="images/linkedin.svg" alt="linkedIn" width="100%">
+				</a>
+			</li>
+		</ul>
+		
+	   <hr>
+			
 		<a href="index.html#pageTop">Top of Page</a>
 		<!-- When referening subpage/content on th page it is preferred to define locations by id not by name (as used for Top of the page, it is the 2nd possible way but just use id's for that-->
-		<a id="pageBottom">Bottom of Page</a>
+		<a id="pageBottom"></a>
 		
 		<br>
-		Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+		<div class="acknowledgments">
+			Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+			<br>
+			Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+		</div>
 	</footer>
 </html>

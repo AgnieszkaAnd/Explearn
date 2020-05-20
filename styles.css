@@ -1,37 +1,39 @@
+header {
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	border-bottom: solid #001c3b;
+}
+
 .header {
-  overflow: hidden;
-  background-color: #c4e0ff;
+  overflow: auto;
   padding: 10px;
+	border-radius: 4px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
   color: black;
-  text-align: center;
-  padding: 12px;
+  text-align: left;
+  padding: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 25px;
   border-radius: 4px;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+	overflow: unset;
+  padding: 8px;
 }
 
-/* Change the background color on mouse-over */
-.header a:hover {
-  background-color: #ddd;
-  color: black;
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header .smallLogo {
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
-  color: white;
+  font-weight: 700;
+	text-decoration: overline solid 5px;
 }
 
 /* Float the link section to the right */
@@ -41,6 +43,7 @@
 
 body {
 	background: white;
+		font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
 }
 
 div#wrapper {
@@ -83,7 +86,7 @@ div.sectionImage {
 	scale: 20%;
 }
 
-div.boxMenuOptions {
+div.boxMenuOptionsContainer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -101,7 +104,39 @@ div.category {
 	border-radius:0.5em;
 }
 
-a:hover{ color: blue; }
-a:active{ color:red; }
-a:visited{ color: #989898; }
+a:hover{ color: #007aff; }
 
+.footer {
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+.footerLogos {
+  list-style: none;
+	text-align: center;
+	display: inline-flex;
+}
+
+.footerLogos li {
+	padding: 8px;
+}
+
+.footer #copyrights {
+	padding-right: 75px;
+}
+
+.footerLogo img {
+	text-align: center;
+	max-width: 30px;
+	max-height: 30px;
+}
+
+div.acknowledgments {
+	font-size: 8px;
+	color: #001c3b;
+}
+
+div.acknowledgments a {
+	text-decoration: none;
+	color: #001c3b;
+}
