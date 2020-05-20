@@ -13,6 +13,7 @@ header {
   color: black;
   text-align: left;
   padding: 5px;
+	padding-inline: 18px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -54,20 +55,20 @@ div.logo {
 
 div.logo img {
 	max-height: 250px;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 div.siteName {
 	color: #007AFF;
 	text-align: center;
 	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
-	font-size: 100px;
+	font-size: 80px;
 	font-weight: 700;
 }
 
 div.boldText {
 	text-align: center;
-	padding: 120px;
+	padding-block: 20px;
 	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
 	font-size: 20px;
 	color: #001c3b;
@@ -78,13 +79,16 @@ div.subTitle {
 	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
 	font-size: 50px;
 	color: #001c3b;
+	padding-top: 50px;
 }
 
 div.sectionImage {
 	text-align: center;
-	height: 0;
-	padding: 30px;
-	scale: 20%;
+}
+
+div.sectionImage img {
+	max-height: 100px;
+	margin-top: 20px;
 }
 
 div.boxMenuOptionsContainer {
