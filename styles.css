@@ -1,12 +1,10 @@
 header {
 	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
-	border-bottom: solid #001c3b;
+	border-bottom: solid #001c3b 1px;
 }
 
 .header {
   overflow: auto;
-  padding: 10px;
-	border-radius: 4px;
 }
 
 /* Style the header links */
@@ -14,20 +12,20 @@ header {
   float: left;
   color: black;
   text-align: left;
-  padding: 20px;
+  padding: 5px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
 
 .header a.logo {
-	overflow: unset;
-  padding: 8px;
+  
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header .smallLogo {
+.header .smallLogo img {
+  max-height: 35px;
 }
 
 /* Style the active/current link*/
@@ -47,13 +45,16 @@ body {
 }
 
 div#wrapper {
-	margin:auto;
 	background:white;
 }
 
 div.logo {
 	text-align: center;
-	scale: 50%;
+}
+
+div.logo img {
+	max-height: 250px;
+	margin-top: 100px;
 }
 
 div.siteName {
@@ -104,39 +105,56 @@ div.category {
 	border-radius:0.5em;
 }
 
-a:hover{ color: #007aff; }
-
 .footer {
 	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
 	text-align: center;
+	border-top: solid #001c3b 1px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #001c3b;
 }
 
 .footerLogos {
+	width: 100%;
   list-style: none;
 	text-align: center;
 	display: inline-flex;
+	flex-flow: row; 
+	justify-content: space-evenly;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
 }
 
 .footerLogos li {
-	padding: 8px;
+	text-decoration: none;
 }
 
 .footer #copyrights {
 	padding-right: 75px;
 }
 
+.footerLogo {
+	text-decoration: none;
+}
+
 .footerLogo img {
 	text-align: center;
 	max-width: 30px;
 	max-height: 30px;
+	padding-inline: 10px;
 }
 
-div.acknowledgments {
+.acknowledgments {
 	font-size: 8px;
 	color: #001c3b;
 }
 
-div.acknowledgments a {
+.acknowledgments a {
 	text-decoration: none;
 	color: #001c3b;
 }
+
+a:hover{ color: #007aff; }
