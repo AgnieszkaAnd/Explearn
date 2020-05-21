@@ -10,7 +10,7 @@
 		<meta name="keywords" content="learn to code,coding,coding knowledge database,recommended links to learn how to code,recommended links to learn coding,links for self-thought developers"/>
 		<meta name="robots" content="index,follow"/>
 		<!-- added JS -->
-		<script src="randomcolorchange.js"></script>
+		<script src="scripts/ContactValidation.js"></script>
 		<link rel="stylesheet" href="styles.css"/>
 		<link rel="icon" href="images/explearnLogo.ico"/>
 		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
@@ -74,13 +74,33 @@
 
 			<a name="Contact"></a>
 			<div class="subTitle">Contact</div>
-			<!-- We can dynamically call a JS function to execute -->
-			<a href="javascript:toggleImg()">Toggle Image</a><br>
-			<a href="mailto:exampleEmail@gmail.com">Send an email</a>
-								
-			This is an abbreviation It should contain a contact page with a form to send email to the author (you don't need to create server side logic, only the front end)
-			Contact page should have validation written in JavaScript using regular expressions
-			<abbr title="abbreviation">abbrv.</abbr><br>
+			<div class="boldText">
+				<p>Tell us what you think!</p>
+			</div>
+			<div class="contactForm">
+				<form>
+					<label class="email">Your email</label>
+					<input id="emailInput" class="email" type="email" onblur="isEmailValid(this, document.getElementById('email_help'))" />
+					<abbr id="email_help" ></abbr>
+
+					
+					<label for="message" class="">Message</label>
+					<textarea id="messageInput" class="input">
+					Contact page should have validation written in JavaScript using regular expressions</textarea>
+					<span color="error" class=""></span>
+					
+					<button type="submit" class="">Send</button>
+				</form>
+				
+				<div class="emailContact">Our email address
+					<a href="mailto:explearn.dev@gmail.com">explearn.dev@gmail.com</a>
+				</div>
+			</div>
+					
+			<!-- We can dynamically call a JS function to execute
+			Run JS function without page reload -->
+			<a href="javascript:void(0)" onClick="alert('Test alert window')"></a>
+			<abbr title="abbreviation">abbrv.</abbr>
 			
 		</div>
 	</body>

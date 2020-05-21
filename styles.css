@@ -17,7 +17,6 @@ header {
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 4px;
 }
 
 .header a.logo {
@@ -80,6 +79,7 @@ div.subTitle {
 	font-size: 50px;
 	color: #001c3b;
 	padding-top: 50px;
+	padding-bottom: 20px
 }
 
 div.sectionImage {
@@ -107,6 +107,59 @@ div.category {
 	margin: 50px;
 	width: 20%;
 	border-radius:0.5em;
+}
+
+.contactForm {
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	font-size: 1.5em;
+}
+
+.contactForm form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactForm label {
+  margin: 10px;
+}
+
+.contactForm input {
+  padding: 10px;
+}
+
+.contactForm textarea {
+	height: 200px;
+	width: auto;
+	resize: none;
+	font-size: 15px;
+  padding: 10px;
+}
+
+.contactForm #email_help {
+	color: red;
+	font-size: 15px;
+	margin: 5px;
+}
+
+.contactForm button {
+	font-size: 1em;
+	background: #007aff;
+  color: white;
+	margin-block: 10px;
+  border-radius: 4px;
+}
+
+.emailContact {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+}
+
+.emailContact a {
+	color: #007aff;
+	text-decoration: none;
 }
 
 .footer {
