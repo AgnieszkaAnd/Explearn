@@ -1,0 +1,217 @@
+header {
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	border-bottom: solid #001c3b 1px;
+}
+
+.header {
+  overflow: auto;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 5px;
+	padding-inline: 18px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header a.logo {
+  
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header .smallLogo img {
+  max-height: 35px;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  font-weight: 700;
+	text-decoration: overline solid 5px;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+body {
+	background: white;
+		font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+}
+
+div#wrapper {
+	background:white;
+}
+
+div.logo {
+	text-align: center;
+}
+
+div.logo img {
+	max-height: 250px;
+	margin-top: 60px;
+}
+
+div.siteName {
+	color: #007AFF;
+	text-align: center;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+}
+
+div.boldText {
+	text-align: center;
+	padding-block: 20px;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #001c3b;
+}
+
+div.subTitle {
+	text-align: center;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-size: 50px;
+	color: #001c3b;
+	padding-top: 50px;
+	padding-bottom: 20px
+}
+
+div.sectionImage {
+	text-align: center;
+}
+
+div.sectionImage img {
+	max-height: 100px;
+	margin-top: 20px;
+}
+
+div.boxMenuOptionsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.category {
+	background-color: #007aff;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	padding: 50px;
+	margin: 50px;
+	width: 20%;
+	border-radius:0.5em;
+}
+
+.contactForm {
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	font-size: 1.5em;
+}
+
+.contactForm form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactForm label {
+  margin: 10px;
+}
+
+.contactForm input {
+  padding: 10px;
+}
+
+.contactForm textarea {
+	height: 200px;
+	width: auto;
+	resize: none;
+	font-size: 15px;
+  padding: 10px;
+}
+
+.contactForm #email_help {
+	color: red;
+	font-size: 15px;
+	margin: 5px;
+}
+
+.contactForm button {
+	font-size: 1em;
+	background: #007aff;
+  color: white;
+	margin-block: 10px;
+  border-radius: 4px;
+}
+
+.emailContact {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+}
+
+.emailContact a {
+	color: #007aff;
+	text-decoration: none;
+}
+
+.footer {
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	text-align: center;
+	border-top: solid #001c3b 1px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #001c3b;
+}
+
+.footerLogos {
+	width: 100%;
+  list-style: none;
+	text-align: center;
+	display: inline-flex;
+	flex-flow: row; 
+	justify-content: space-evenly;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.footerLogos li {
+	text-decoration: none;
+}
+
+.footer #copyrights {
+	padding-right: 75px;
+}
+
+.footerLogo {
+	text-decoration: none;
+}
+
+.footerLogo img {
+	text-align: center;
+	max-width: 30px;
+	max-height: 30px;
+	padding-inline: 10px;
+}
+
+.acknowledgments {
+	font-size: 8px;
+	color: #001c3b;
+}
+
+.acknowledgments a {
+	text-decoration: none;
+	color: #001c3b;
+}
+
+a:hover{ color: #007aff; }
