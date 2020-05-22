@@ -43,12 +43,23 @@ function removeFirstChildNode(elementId) {
 	}
 }
 
-function sendMessage(email, helpId, inputsIds) {
-	//TBD - sending actual email
-	
-	//CLEANUP
+function sendMessage(emailInputId, helpId, inputsIds) {
 	for (i=0; i < inputsIds.length; i++) {
-		clearField(inputsIds[i]);
+		if (document.getElementById(inputsIds[i]).value == '') {
+			alert('Please, do not leave any field blank.\nThank you!')
+			return 0;
+		}
 	}
-	removeFirstChildNode(helpId);
+		
+	if(document.getElementById(helpId).childNodes.length === 0) {
+		//TBD - sending actual email
+		
+		//CLEANUP
+		for (i=0; i < inputsIds.length; i++) {
+			clearField(inputsIds[i]);
+		}
+		alert('Done, your message has been successfully sent.\nThank you!');
+	} else {
+		alert('Oooh, an error occured, please verify your inputs.\nThank you!')
+	}
 }
