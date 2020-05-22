@@ -9,17 +9,19 @@
 		<meta charset="UTF-8"/>
 		<meta name="keywords" content="learn to code,coding,coding knowledge database,recommended links to learn how to code,recommended links to learn coding,links for self-thought developers"/>
 		<meta name="robots" content="index,follow"/>
+		
 		<!-- added JS -->
 		<script src="scripts/ContactValidation.js"></script>
+		
 		<link rel="stylesheet" href="styles.css"/>
 		<link rel="icon" href="images/explearnLogo.ico"/>
 		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
 		<!-- icons from the pack: https://www.flaticon.com/packs/artificial-intelligence-36 -->
+		
 		<title>Explearn</title>
 	</head>
-
 
 	
 	<body>
@@ -27,19 +29,20 @@
 			<div class="header">
 				<a href="#default" class="logo">
 					<div class="smallLogo">
-					 <img id="logo" src="images/explearnLogoSmall.png" alt="Explearn logo"/>
+						<img id="logo" src="images/explearnLogoSmall.png" alt="Explearn logo"/>
 					</div>
 				</a>
-				<div class="header-right">
+				<div class="menuLinks">
 					<a class="active" href="#home">Home</a>
 					<a href="index.html#Howitworks">How it works</a>
 					<a href="index.html#Categories">Categories</a>
 					<a href="index.html#Contact">Contact</a>
 				</div>
-			</div> 
+			</div>
+			
+			<!-- for navigation purposes -->
 			<a name="pageTop"></a>
-			<!-- NOT USED:
-			<a href="index.html#pageBottom">Bottom of Page</a> -->
+			
 		</header>
 	
 		<div class="content">
@@ -75,7 +78,7 @@
 			<a name="Contact"></a>
 			<div class="subTitle">Contact</div>
 			<div class="boldText">
-				<p>Tell us what you think!</p>
+				Tell us what you think!
 			</div>
 			<div class="contactForm">
 				<form>
@@ -84,12 +87,11 @@
 					<abbr id="email_help" ></abbr>
 
 					
-					<label for="message" class="">Message</label>
-					<textarea id="messageInput" class="input">
-					Contact page should have validation written in JavaScript using regular expressions</textarea>
+					<label for="message" class=""><abbr title="Feedback box">Message</abbr></label>
+					<textarea id="messageInput" class="input"></textarea>
 					<span color="error" class=""></span>
 					
-					<button type="submit" class="">Send</button>
+					<button type="button" onclick="alert('Done, your message has been successfully sent.\nThank you!');sendMessage('explearn.dev@gmail.com','email_help',['emailInput','messageInput'])">Send</button>
 				</form>
 				
 				<div class="emailContact">Our email address
@@ -100,7 +102,6 @@
 			<!-- We can dynamically call a JS function to execute
 			Run JS function without page reload -->
 			<a href="javascript:void(0)" onClick="alert('Test alert window')"></a>
-			<abbr title="abbreviation">abbrv.</abbr>
 			
 		</div>
 	</body>
@@ -126,12 +127,12 @@
 			<a href="index.html#pageTop">Top of Page</a>
 			<a id="pageBottom"></a>
 			
-			Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-			Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-			Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-			Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-			Icons made by <a href="https://www.flaticon.com/authors/inipagistudio" title="inipagistudio">inipagistudio</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-			Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+			Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a>,
+			<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
+			<a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>,
+			<a href="https://www.flaticon.com/authors/srip" title="srip">srip</a>,
+			<a href="https://www.flaticon.com/authors/inipagistudio" title="inipagistudio">inipagistudio</a>,
+			<a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a>; all from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 		</div>
 	</footer>
 </html>

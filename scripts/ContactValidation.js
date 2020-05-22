@@ -4,7 +4,6 @@ function isEmailValid(inputField, helpId) {
  
 }
 
- 
 function editNodeText(regex, input, helpId, helpMessage) {
   if (!regex.test(input)) {
     if (helpId != null)
@@ -30,4 +29,26 @@ function editNodeText(regex, input, helpId, helpMessage) {
       }
  
     }
+}
+
+function clearField(elementId) {
+	document.getElementById(elementId).value="";
+}
+
+function removeFirstChildNode(elementId) {
+	var element = document.getElementById(elementId);
+	
+	if (element.childNodes.length != null) {
+		element.removeChild(element.childNodes[0]);
+	}
+}
+
+function sendMessage(email, helpId, inputsIds) {
+	//TBD - sending actual email
+	
+	//CLEANUP
+	for (i=0; i < inputsIds.length; i++) {
+		clearField(inputsIds[i]);
+	}
+	removeFirstChildNode(helpId);
 }

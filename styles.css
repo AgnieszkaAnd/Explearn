@@ -1,51 +1,36 @@
-header {
+body {
+	background: white;
 	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
-	border-bottom: solid #001c3b 1px;
+	background:white;
 }
 
 .header {
-  overflow: auto;
+	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	border-bottom: solid #001c3b 1px;
+	overflow: auto;
 }
 
 /* Style the header links */
 .header a {
   float: left;
   color: black;
-  text-align: left;
   padding: 5px;
 	padding-inline: 18px;
   text-decoration: none;
   font-size: 18px;
-  line-height: 25px;
 }
 
-.header a.logo {
-  
-}
-
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header .smallLogo img {
-  max-height: 35px;
+  max-height: 30px;
 }
 
-/* Style the active/current link*/
 .header a.active {
   font-weight: 700;
 	text-decoration: overline solid 5px;
 }
 
-/* Float the link section to the right */
-.header-right {
+.menuLinks {
   float: right;
-}
-
-body {
-	background: white;
-		font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
-}
-
-div#wrapper {
-	background:white;
 }
 
 div.logo {
