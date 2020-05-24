@@ -1,11 +1,11 @@
 body {
 	background: white;
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	background:white;
 }
 
 .header {
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	border-bottom: solid #001c3b 1px;
 	overflow: auto;
 }
@@ -45,7 +45,7 @@ div.logo img {
 div.siteName {
 	color: #007AFF;
 	text-align: center;
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	font-size: 80px;
 	font-weight: 700;
 }
@@ -53,14 +53,14 @@ div.siteName {
 div.boldText {
 	text-align: center;
 	padding-block: 20px;
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	font-size: 20px;
 	color: #001c3b;
 }
 
 div.subTitle {
 	text-align: center;
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	font-size: 50px;
 	color: #001c3b;
 	padding-top: 50px;
@@ -87,7 +87,7 @@ div.category {
 	color: white;
 	text-align: center;
 	font-size: 30px;
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	padding: 50px;
 	margin: 50px;
 	width: 20%;
@@ -148,7 +148,7 @@ div.category {
 }
 
 .footer {
-	font-family: Alata, Advent Pro, Abel, Verdana, Geneva, sans-serif;
+	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	text-align: center;
 	border-top: solid #001c3b 1px;
 }
