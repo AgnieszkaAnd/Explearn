@@ -7,7 +7,7 @@
 
 	<head>
 		<meta charset="UTF-8"/>
-		<meta name="keywords" content="learn to code,coding,coding knowledge database,recommended links to learn how to code,recommended links to learn coding,links for self-thought developers"/>
+		<meta name="keywords" content="explearn,learn to code,coding,coding knowledge database,recommended links to learn how to code,recommended links to learn coding,links for self-thought developers"/>
 		<meta name="robots" content="index,follow"/>
 		
 		<!-- added JS -->
@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="styles.css"/>
 		<link rel="icon" href="images/explearnLogo.ico"/>
 		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
 		<!-- icons from the pack: https://www.flaticon.com/packs/artificial-intelligence-36 -->
 		
@@ -41,98 +40,99 @@
 			</div>
 			
 			<!-- for navigation purposes -->
-			<a name="pageTop"></a>
+			<a id="pageTop"></a>
 			
 		</header>
 	
-		<div class="content">
-		<!-- <body onload="alert('Hello')"> -->
-			<noscript>Please enable JavaScript</noscript>
-			
-			<div class="logo">
-				<img id="logo" src="images/explearnLogo.png" alt="Explearn logo"/>
-			</div>
-			
-			<div class="siteName">EXPLEARN</div>
-			
-			<div class="boldText">Learn coding leveraging experience of the community<br>Use verified sources of knowledge recommended by your peers and accelerate your career</div>
-			
-			<a name="Howitworks"></a>
-			<div class="subTitle">How it works</div>
-			<div class="sectionImage">
-				<img id="community" src="images/join.png"  alt="Community image"/>
-			</div>
-			<div class="boldText">
-				<p>Are you self-thaught programmer or developer wannabe?<br>This is a perfect place for you!<br><br>Browse below categories and find recommended sources of knowledge from specific programming topics.<br>All of them have been gathered by people similar to you: they have given the resources provided their quality mark. Do not waste more time googling and searching for the best tutorial for you: use our tags to search for resources best for either visual or oral learners, people who learn the fastest by experience or the ones that need very deep understanding of theory. Everything you need you will find here.<br><br>Have a great learining experience and be sure to share that with us!</p>
-			</div>
-			
-			<a name="Categories"></a>
-			<div class="subTitle">Categories</div>
-			<div class="boxMenuOptionsContainer">
-				<div class="category">Prog Basic</div>
-				<div class="category">OOP</div>
-				<div class="category">WEB</div>
-				<div class="category">Advanced</div>
-			</div>
-
-			<a name="Contact"></a>
-			<div class="subTitle">Contact</div>
-			<div class="boldText">
-				Tell us what you think!
-			</div>
-			<div class="contactForm">
-				<form>
-					<label class="email">Your email</label>
-					<input id="emailInput" class="email" type="email" onblur="isEmailValid(this, document.getElementById('email_help'))" />
-					<abbr id="email_help" ></abbr>
-
-					
-					<label for="message" class=""><abbr title="Feedback box">Message</abbr></label>
-					<textarea id="messageInput" class="input"></textarea>
-					<span color="error" class=""></span>
-					
-					<button type="button" onclick="sendMessage('emailInput','email_help',['emailInput','messageInput'])">Send</button>
-				</form>
+		<main>
+			<div class="content">
+			<!-- <body onload="alert('Hello')"> -->
+				<noscript>Please enable JavaScript</noscript>
 				
-				<div class="emailContact">Our email address
-					<a href="mailto:explearn.dev@gmail.com">explearnedev@gmail.com</a>
+				<div class="logo">
+					<img id="logoBig" src="images/explearnLogo.png" alt="Explearn logo"/>
 				</div>
-			</div>
-					
-			<!-- We can dynamically call a JS function to execute
-			Run JS function without page reload -->
-			<a href="javascript:void(0)" onClick="alert('Test alert window')"></a>
-			
-		</div>
-	</body>
-	
-	<footer class="footer">
-		
-		<ul class="footerLogos">
-			<li id="copyrights">Copyright © Agnieszka Andrzejczuk <!-- -->2020</li>
-			<li>
-				<a class="footerLogo" href="https://github.com/AgnieszkaAnd" target="_blank" rel="noopener">
-					<img src="images/githubLogo.png" alt="Github" width="100%">
-				</a>
-			
-				<a class="footerLogo" href="https://www.linkedin.com/in/agnieszka-andrzejczuk-b9605498/" target="_blank" rel="noopener">
-					<img src="images/linkedin.svg" alt="linkedIn" width="100%">
-				</a>
-			</li>
-		</ul>
+				
+				<div class="siteName">EXPLEARN</div>
+				
+				<div class="boldText">Learn coding leveraging experience of the community<br>Use verified sources of knowledge recommended by your peers and accelerate your career</div>
+				
+				<a id="Howitworks"></a>
+				<div class="subTitle">How it works</div>
+				<div class="sectionImage">
+					<img id="community" src="images/join.png"  alt="Community image"/>
+				</div>
+				<div class="boldText">
+					<p>Are you self-thaught programmer or developer wannabe?<br>This is a perfect place for you!<br><br>Browse below categories and find recommended sources of knowledge from specific programming topics.<br>All of them have been gathered by people similar to you: they have given the resources provided their quality mark. Do not waste more time googling and searching for the best tutorial for you: use our tags to search for resources best for either visual or oral learners, people who learn the fastest by experience or the ones that need very deep understanding of theory. Everything you need you will find here.<br><br>Have a great learining experience and be sure to share that with us!</p>
+				</div>
+				
+				<a id="Categories"></a>
+				<div class="subTitle">Categories</div>
+				<div class="boxMenuOptionsContainer">
+					<div class="category">Prog Basic</div>
+					<div class="category">OOP</div>
+					<div class="category">WEB</div>
+					<div class="category">Advanced</div>
+				</div>
 
-		
-		<br>
-		<div class="acknowledgments">
-			<a href="index.html#pageTop">Top of Page</a>
-			<a id="pageBottom"></a>
+				<a id="Contact"></a>
+				<div class="subTitle">Contact</div>
+				<div class="boldText">
+					Tell us what you think!
+				</div>
+				<div class="contactForm">
+					<form>
+						<label class="email">Your email</label>
+						<input id="emailInput" class="email" type="email" onblur="isEmailValid(this, document.getElementById('email_help'))" />
+						<abbr id="email_help" ></abbr>
+
+						
+						<label id="message" class=""><abbr title="Feedback box">Message</abbr></label>
+						<textarea id="messageInput" class="input"></textarea>
+						
+						<button type="button" onclick="sendMessage('emailInput','email_help',['emailInput','messageInput'])">Send</button>
+					</form>
+					
+					<div class="emailContact">Our email address
+						<a href="mailto:explearn.dev@gmail.com">explearnedev@gmail.com</a>
+					</div>
+				</div>
+						
+				<!-- We can dynamically call a JS function to execute
+				Run JS function without page reload -->
+				<a href="javascript:void(0)" onClick="alert('Test alert window')"></a>
+				
+			</div>
+		</main>
+	
+		<footer class="footer">
 			
-			Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a>,
-			<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
-			<a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>,
-			<a href="https://www.flaticon.com/authors/srip" title="srip">srip</a>,
-			<a href="https://www.flaticon.com/authors/inipagistudio" title="inipagistudio">inipagistudio</a>,
-			<a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a>; all from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-		</div>
-	</footer>
+			<ul class="footerLogos">
+				<li id="copyrights">Copyright © Agnieszka Andrzejczuk <!-- -->2020</li>
+				<li>
+					<a class="footerLogo" href="https://github.com/AgnieszkaAnd" target="_blank" rel="noopener">
+						<img src="images/githubLogo.png" alt="Github">
+					</a>
+				
+					<a class="footerLogo" href="https://www.linkedin.com/in/agnieszka-andrzejczuk-b9605498/" target="_blank" rel="noopener">
+						<img src="images/linkedin.svg" alt="linkedIn">
+					</a>
+				</li>
+			</ul>
+
+			
+			<br>
+			<div class="acknowledgments">
+				<a href="index.html#pageTop">Top of Page</a>
+				<a id="pageBottom"></a>
+				
+				Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a>,
+				<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
+				<a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>,
+				<a href="https://www.flaticon.com/authors/srip" title="srip">srip</a>,
+				<a href="https://www.flaticon.com/authors/inipagistudio" title="inipagistudio">inipagistudio</a>,
+				<a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a>; all from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+			</div>
+		</footer>
+	</body>
 </html>
