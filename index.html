@@ -69,10 +69,22 @@
 				<a id="Categories"></a>
 				<div class="subTitle">Categories</div>
 				<div class="boxMenuOptionsContainer">
-					<div class="category">Prog Basic</div>
-					<div class="category">OOP</div>
-					<div class="category">WEB</div>
-					<div class="category">Advanced</div>
+					<div class="category">
+						<img class="buttonContent" src="images/progBasic.png">
+						<a class="buttonContent" href="categories/progbasic.html">Prog Basic</a>
+					</div>
+					<div class="category">
+						<img class="buttonContent" src="images/oop.png">
+						<a class="buttonContent" href="categories/oop.html">OOP</a>
+					</div>
+					<div class="category">
+						<img class="buttonContent" src="images/web.png">
+						<a class="buttonContent" href="categories/web.html">WEB</a>
+					</div>
+					<div class="category">
+						<img class="buttonContent" src="images/advanced.png">
+						<a class="buttonContent" href="categories/advanced.html">Advanced</a>
+					</div>
 				</div>
 
 				<a id="Contact"></a>
@@ -81,18 +93,6 @@
 					Tell us what you think!
 				</div>
 				<div class="contactForm">
-					<form>
-						<label class="email">Your email</label>
-						<input id="emailInput" class="email" type="email" onblur="isEmailValid(this, document.getElementById('email_help'))" />
-						<abbr id="email_help" ></abbr>
-
-						
-						<label id="message" class=""><abbr title="Feedback box">Message</abbr></label>
-						<textarea id="messageInput" class="input"></textarea>
-						
-						<button type="button" onclick="sendMessage('emailInput','email_help',['emailInput','messageInput'])">Send</button>
-					</form>
-					
 					<div class="emailContact">Our email address
 						<a href="mailto:explearn.dev@gmail.com">explearnedev@gmail.com</a>
 					</div>
