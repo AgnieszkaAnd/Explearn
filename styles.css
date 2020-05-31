@@ -82,6 +82,10 @@ div.boxMenuOptionsContainer {
 	justify-content: center;
 }
 
+div.boxMenuOptionsContainer a {
+	margin-inline: 70px;
+	margin-block: 30px;
+}
 
 div.category {
 	background-color: #007aff;
@@ -90,10 +94,8 @@ div.category {
 	font-size: 30px;
 	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	padding: 30px;
-	margin-inline: 70px;
-	margin-block: 30px;
-	width: 20%;
 	border-radius:0.5em;
+	width: 6em;
 }
 
 .buttonContent {
