@@ -1,7 +1,8 @@
 body {
 	background: white;
 	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
-	background:white;
+	width: 80%;
+	margin: auto;
 }
 
 .header {
@@ -72,7 +73,7 @@ div.sectionImage {
 }
 
 div.sectionImage img {
-	max-height: 100px;
+	max-height: 60px;
 	margin-top: 20px;
 }
 
@@ -83,8 +84,12 @@ div.boxMenuOptionsContainer {
 }
 
 div.boxMenuOptionsContainer a {
-	margin-inline: 70px;
-	margin-block: 30px;
+	/* margin: 100px; */
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* margin-block: 30px; */
 }
 
 div.category {
@@ -109,6 +114,7 @@ div.category {
 
 .category a:hover {
 	color: white;
+	text-decoration: none;
 }
 
 .contactForm {
