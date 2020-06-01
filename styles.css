@@ -9,6 +9,7 @@ body {
 	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	border-bottom: solid #001c3b 1px;
 	overflow: auto;
+	margin-top: 10px;
 }
 
 /* Style the header links */
@@ -16,7 +17,7 @@ body {
   float: left;
   color: black;
   padding: 5px;
-	padding-inline: 18px;
+  /* padding-inline: 18px; */
   text-decoration: none;
   font-size: 18px;
 }
