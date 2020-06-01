@@ -3,6 +3,7 @@ body {
 	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	width: 80%;
 	margin: auto;
+	height: 100%;
 }
 
 .header {
@@ -17,7 +18,6 @@ body {
   float: left;
   color: black;
   padding: 5px;
-  /* padding-inline: 18px; */
   text-decoration: none;
   font-size: 18px;
 }
@@ -85,12 +85,10 @@ div.boxMenuOptionsContainer {
 }
 
 div.boxMenuOptionsContainer a {
-	/* margin: 100px; */
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	/* margin-block: 30px; */
 }
 
 div.category {
