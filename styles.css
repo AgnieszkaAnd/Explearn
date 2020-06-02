@@ -96,7 +96,6 @@ div.category {
 	color: white;
 	text-align: center;
 	font-size: 30px;
-	font-family: Alata, Abel, Verdana, Geneva, sans-serif;
 	padding: 30px;
 	border-radius:0.5em;
 	width: 6em;
@@ -105,9 +104,7 @@ div.category {
 .buttonContent {
 	display: block;
 	max-height: 100px;
-	text-align: center;
 	margin: auto;
-	color: white;
 	text-decoration: none;
 }
 
