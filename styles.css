@@ -186,3 +186,34 @@ div.category {
 }
 
 a:hover{ color: #007aff; }
+
+.subpageContent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.subpageColumn {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.boldText ul {
+	text-align: left;
+}
+
+table {
+	border: solid;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+th {
+	font-size: 20px;
+  color: white;
+	background: #007AFF;
+}
+
+td, th {
+	padding: 10px;
+}
