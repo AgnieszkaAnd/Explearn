@@ -1,0 +1,12 @@
+#webResources a {
+	text-decoration: none;
+	color: #001c3b;
+
+}
+
+#webResources a:hover{ color: #007aff; }
+
+input[type="checkbox"]:checked ~ .row label {
+    background: greenyellow;
+    text-decoration: line-through;
+}

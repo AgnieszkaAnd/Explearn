@@ -11,6 +11,7 @@
 		<script src="../scripts/CategoriesSubpages.js"></script>
 		
 		<link rel="stylesheet" href="../styles.css"/>
+		<link rel="stylesheet" href="../subpageStyles.css"/>
 		<link rel="icon" href="../images/explearnLogo.ico"/>
 		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
@@ -59,6 +60,10 @@
 					</div> -->
 
 					<div class="subpageColumn">
+
+						<div class="logo">
+							<img class="logoBig" src="../images/boy.png" alt="Let's learn">
+						</div>
 						<div class="subTitle">Resources</div>
 						<div class="boldText">Let's attack the Web world!<br>Tap on any column header to sort results</div>
 
@@ -66,49 +71,64 @@
 						<!-- TABLE WITH RESOURCES - loaded by topic chosen-->
 						<table id="webResources">
 							<tr>
-								<th onclick="sortTable(0)">#</th>
-								<th onclick="sortTable(1)">Topic</th>
-								<th onclick="sortTable(2)">Link</th>
-								<th onclick="sortTable(3)">Level</th>
-								<th onclick="sortTable(4)">Content</th>
-								<th onclick="sortTable(5)">Est.time</th>
-								<th onclick="sortTable(6)">Tags</th>
+								<th onclick="sortTable(0)">Done</th>
+								<th onclick="sortTable(1)">#</th>
+								<th onclick="sortTable(2)">Topic</th>
+								<th onclick="sortTable(3)">Link</th>
+								<th onclick="sortTable(4)">Level</th>
+								<th onclick="sortTable(5)">Content</th>
+								<th onclick="sortTable(6)">Est.time</th>
+								<th onclick="sortTable(7)">Tags</th>
 							</tr>
 							<tr>
-								<td>1</td>
-								<td>HTML</td>
-								<td><a href="https://www.youtube.com/watch?v=kDyJN7qQETA">Learn HTML5 in one video - Derek Banas</a></td>
+								<td class="row"><input type="checkbox"></td>
+								<td class="row">1</td>
+								<td class="row">HTML</td>
+								<td class="row"><a href="https://www.youtube.com/watch?v=kDyJN7qQETA">Learn HTML5 in one video - Derek Banas</a></td>
 								<td>*</td>
 								<td>video</td>
-								<td>1h 40min</td>
+								<td><time>1:40 h</time></td>
 								<td>syntax, in a nutshell</td>
 							</tr>
 							<tr>
+								<td><input type="checkbox"></td>
 								<td>2</td>
 								<td>HTML</td>
 								<td><a href="https://learn.shayhowe.com/html-css/writing-your-best-code/">Writing your best web code</a></td>
 								<td>*</td>
 								<td>text</td>
-								<td>30min</td>
-								<td>in a nutshell, best practices</td>
+								<td><time>0:30 h</time></td>
+								<td>in a nutshell, best practices,code sample</td>
 								</tr>
 							<tr>
+								<td><input type="checkbox"></td>
 								<td>3</td>
-								<td>HTML</td>
-								<td><a href="https://www.github.com/">TBD</a></td>
+								<td>HTTP</td>
+								<td><a href="https://www.tutorialsteacher.com/https/what-is-https">HTTP protocol</a></td>
 								<td>*</td>
-								<td>code</td>
-								<td>2h</td>
-								<td>code sample</td>
+								<td>text</td>
+								<td><time>0:15 h</time></td>
+								<td>theory</td>
 							</tr>
 							<tr>
+								<td><input type="checkbox"></td>
 								<td>4</td>
-								<td>CSS</td>
-								<td><a href="https://www.github.com/">TBD</a></td>
+								<td>HTTP</td>
+								<td><a href="https://tiptopsecurity.com/how-does-https-work-rsa-encryption-explained/">HTTP and RSA encryption</a></td>
 								<td>**</td>
-								<td>code</td>
-								<td>10h</td>
-								<td>code sample</td>
+								<td>text</td>
+								<td><time>0:30 h</time></td>
+								<td>theory</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>5</td>
+								<td>HTTP</td>
+								<td><a href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">HTTP error codes</a></td>
+								<td>**</td>
+								<td>text</td>
+								<td><time>0:45 h</time></td>
+								<td>theory</td>
 							</tr>
 						</table>
 					</div>
