@@ -1,15 +1,4 @@
 body {
-	/* background: white; */
-	/* background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);  */
-	/* background-color: #8BC6EC;
-	background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
-	/* background-image: linear-gradient( 180deg,  rgba(21,13,107,1) 1.1%, rgba(188,16,80,1) 130.5% );
-	font-family: Alata, Abel, Verdana, Geneva, sans-serif; */
-	/* background: #23074d;  /* fallback for old browsers */
-	/* background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-	/* background: linear-gradient(to right, #cc5333, #23074d); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 	background: #360033;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -29,10 +18,11 @@ body {
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: white;
   padding: 5px;
   text-decoration: none;
   font-size: 18px;
+  position: sticky;
 }
 
 .header .smallLogo img {

@@ -1,0 +1,47 @@
+body {
+	background: #360033;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0f818b, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: Alata, Abel, Verdana, Geneva, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+header .menuItem {
+    float: right;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding-inline: 0.2em;
+}
+
+header a:hover {
+    color: chocolate;
+}
+
+.menuItem #menuActivePage {
+    text-decoration: overline solid 5px;
+}
+
+.sectionSideBySide {
+    display: flex;
+    justify-content: space-between;
+    max-height: 50vh; 
+}
