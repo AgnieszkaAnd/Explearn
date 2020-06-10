@@ -11,6 +11,10 @@ h1 {
     font-size: 4em;
 }
 
+p {
+    font-size: 1.5em;
+}
+
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -18,7 +22,7 @@ h1 {
 }
 
 header {
-    margin-bottom: 2em;
+    margin-block: 2em;
 }
 
 header .menuItem {
@@ -43,5 +47,15 @@ header a:hover {
 .sectionSideBySide {
     display: flex;
     justify-content: space-between;
-    max-height: 50vh; 
 }
+
+.sectionSideBySide > div {
+    padding: 3em;
+    width: 50%;
+    margin: auto;
+}
+
+#logoBig {
+    width: 20em;
+}
+
